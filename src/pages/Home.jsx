@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <div>
       <SearchUser handleChange={handleChange}/>
-      <Followers followers={loading, followersList}/>
+      <Followers followers={{loading, followersList}}/>
     </div>
   )
 }
